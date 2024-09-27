@@ -23,3 +23,9 @@ This project uses the Notion API to update the emoji on database items based on 
 ## GitHub Actions Automation
 
 The project is configured to run automatically every 4 hours using GitHub Actions. The workflow file is located in `.github/workflows/run-script.yml`.
+
+upadte your reposiorty secrets 
+   NOTION_API_KEY=your-notion-api-key
+   DATABASE_ID=your-database-id
+
+then un-comment the `on` section to enable this github action
