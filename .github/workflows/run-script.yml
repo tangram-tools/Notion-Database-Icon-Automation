@@ -1,11 +1,11 @@
 name: Run Python Script Every 4 Hours or on Commit
 
-# on:
-#   schedule:
-#     - cron: "0 */4 * * *"
-#   push: # This will trigger the action on every commit
-#     branches:
-#       - main # Change this to your default branch if it's not 'main'
+on:
+  schedule:
+    - cron: "0 */4 * * *"
+  push: # This will trigger the action on every commit
+    branches:
+      - main # Change this to your default branch if it's not 'main'
 
 jobs:
   run-python-script:
